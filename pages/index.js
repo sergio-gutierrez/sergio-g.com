@@ -12,7 +12,7 @@ export default function Home() {
 
       <main>
         <div className='top-bar'>
-          <span className="name">Sergio G.</span>
+          <div className='name'>Sergio Gutierrez</div>
           <div className="button-container">
             <button className="button">Home</button>
             <button className="button">Projects</button>
@@ -24,8 +24,6 @@ export default function Home() {
         <p className="description">
           Get started by editing <code>pages/index.js</code>
         </p>
-
-
       </main>
 
       <Footer />

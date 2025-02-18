@@ -1,10 +1,10 @@
 html,
 body {
-  background-color: #5bab29;
+  background-color: #b752529d;
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell,
-    Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    Fira Sans, Droid Sans, Helvetica Neue, sans-serif;  
 }
 
 * {
@@ -12,11 +12,11 @@ body {
 }
 
 main {
-  padding: 5rem 0;
+  padding-top: 60px;
   flex: 1;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
 }
 
@@ -31,36 +31,46 @@ code {
   height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
+  padding-top: 10px;
 }
 
 .top-bar{
+  position: fixed;
+  top: 0;
+  left: 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 100%;
   padding: 10px;
+  color:white;
+  background-color: cornflowerblue;
+  z-index: 1000;
 }
+
 .name{
   font-size: 20px;
   font-weight: bold;
+  justify-content: flex-start;
 }
 
 .button-container {
   display: flex;
   gap: 10px;
-  margin-bottom: 20px;
+  
 }
 
 .button{
   padding: 10px 20px;
-  background-color: #52a3ff;
+  background-color: #e762ff;
   color:white;
   border:none;
   border-radius: 5px;
   cursor: pointer;
   transition: background 0.3s ease;
+  font-weight: bold;
 }
 .button:hover {
   background-color: #005bb5;
