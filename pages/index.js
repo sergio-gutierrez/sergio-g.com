@@ -39,7 +39,6 @@ export default function Home() {
         </p>
       </main>
 
-      <Footer />
     </div>
   )
 }
