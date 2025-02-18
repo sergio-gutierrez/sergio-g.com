@@ -38,7 +38,7 @@ export default function Home() {
           Feel free to reach out or check out my projects!
         </p>
       </main>
-
+      
       <Footer />
     </div>
   )
