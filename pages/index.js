@@ -21,6 +21,7 @@ export default function Home() {
           </div>
         </div>
 
+{/*
         <div className='selfie-container'>
           <img 
             src='temp_picture.png'
@@ -28,15 +29,16 @@ export default function Home() {
             className='circle-photo'
             />
         </div>
-
+*/}
         {/*<Header title="Sergio Gutierrez" />*/}
-
+        {/*
         <p className="bio">
           Hello and Welcome to my website! <br/>
           My name is Sergio Gutierrez! <br/>
           I am a Computer Science student at SUNY Oneonta!<br/>
           Feel free to reach out or check out my projects!
         </p>
+        */}
       </main>
 
     </div>
