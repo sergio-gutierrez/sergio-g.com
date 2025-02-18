@@ -29,7 +29,7 @@ export default function Home() {
             />
         </div>
 
-        <Header title="Sergio Gutierrez" />
+        {/*<Header title="Sergio Gutierrez" />*/}
 
         <p className="bio">
           Hello and Welcome to my website! <br/>
@@ -38,7 +38,7 @@ export default function Home() {
           Feel free to reach out or check out my projects!
         </p>
       </main>
-      
+
       <Footer />
     </div>
   )
