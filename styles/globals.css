@@ -12,7 +12,7 @@ body {
 }
 
 main {
-  padding-top: 60px;
+  padding-top: 80px;
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -44,7 +44,7 @@ code {
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  padding: 10px;
+  padding: 20px;
   color:white;
   background-color: cornflowerblue;
   z-index: 1000;
@@ -74,4 +74,16 @@ code {
 }
 .button:hover {
   background-color: #005bb5;
+}
+
+.selfie-container{
+  margin-bottom: 20px;
+}
+
+.circle-photo{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  background-color: white;
 }
