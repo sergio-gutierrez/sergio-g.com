@@ -21,8 +21,6 @@ export default function Home() {
           </div>
         </div>
 
-        <Header title="Sergio Gutierrez" />
-
         <div className='selfie-container'>
           <img 
             src='temp_picture.png'
@@ -31,7 +29,10 @@ export default function Home() {
             />
         </div>
 
+        <Header title="Sergio Gutierrez" />
+
         <p className="bio">
+          Hello and Welcome to my website! <br/>
           My name is Sergio Gutierrez! <br/>
           I am a Computer Science student at SUNY Oneonta!<br/>
           Feel free to reach out or check out my projects!
