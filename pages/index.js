@@ -13,13 +13,16 @@ export default function Home() {
       <main>
         <div className='top-bar'>
           <div className='name'>Sergio G.</div>
+          {/*
           <div className="button-container">
             <button className="button">Home</button>
             <button className="button">Projects</button>
             <button className="button">Contact</button>
             <button className="button">CV</button>
           </div>
+          */}
         </div>
+        
 
 {/*
         <div className='selfie-container'>
