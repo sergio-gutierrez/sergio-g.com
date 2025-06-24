@@ -6,4 +6,4 @@ const renderContactContent = () => (
     </div>
   );
 
-  export {renderContactContent};
+export default renderContactContent;

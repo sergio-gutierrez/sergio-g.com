@@ -5,4 +5,4 @@ const renderProjectsContent = () => (
     </div>
   );
 
-  export {renderProjectsContent};
+export default renderProjectsContent

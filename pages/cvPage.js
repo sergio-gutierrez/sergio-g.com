@@ -5,4 +5,4 @@ const renderCVContent = () => (
     </div>
   );
 
-  export {renderCVContent};
+export default renderCVContent;

@@ -20,5 +20,4 @@ const renderHomeContent = () => {
     </div>
   );
 };
-
-export {renderHomeContent};
+export default renderHomeContent
