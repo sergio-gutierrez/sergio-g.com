@@ -1,9 +1,9 @@
 import React from "react";
 
-import {renderCVContent} from '../pages/cvPage.js';
-import {renderHomeContent} from '../pages/homePage.js';
-import {renderProjectsContent} from '../pages/projectContent.js'; 
-import {renderContactContent} from '../pages/contactPage.js';
+import renderHomeContent from "pages/homePage";
+import renderProjectsContent from "pages/projectsPage";
+import renderContactContent from "pages/contactPage";
+import renderCVContent from "pages/cvPage";
 
 export const renderContent = (currentPage) => {
     switch (currentPage) {
